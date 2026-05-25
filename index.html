@@ -1,0 +1,1095 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- ═══════════════════════════════════════════
+       SEO: Meta Tags
+       n8n tokens: {{business_name}}, {{service_keyword}}, {{suburb}}, {{tagline}}, {{meta_description}}
+  ═══════════════════════════════════════════ -->
+  <title>Elite Plumbing — Licensed Plumber Hawthorn | 24/7 Emergency Service</title>
+  <meta name="description" content="Elite Plumbing — professional plumbing services in Hawthorn and surrounding areas. Licensed plumber for homes and businesses. 24/7 emergency callouts. Call 0412 345 678 for a free quote.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="{{site_url}}">
+
+  <!-- ═══════════════════════════════════════════
+       SEO: Open Graph
+       n8n tokens: {{business_name}}, {{service_keyword}}, {{suburb}}, {{meta_description}}, {{hero_image}}, {{site_url}}
+  ═══════════════════════════════════════════ -->
+  <meta property="og:title" content="Elite Plumbing — Licensed Plumber Hawthorn">
+  <meta property="og:description" content="Elite Plumbing — professional plumbing services in Hawthorn and surrounding areas. Licensed plumber for homes and businesses. 24/7 emergency callouts. Call 0412 345 678 for a free quote.">
+  <meta property="og:image" content="{{hero_image}}">
+  <meta property="og:url" content="{{site_url}}">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="en_AU">
+  <meta property="og:site_name" content="Elite Plumbing">
+
+  <!-- ═══════════════════════════════════════════
+       SEO: LocalBusiness / Plumber Schema
+       n8n replaces: {{business_name}}, {{phone}}, {{email}}, {{street_address}},
+       {{suburb}}, {{state}}, {{postcode}}, {{hours_schema}}, {{site_url}},
+       {{social_facebook}}, {{social_instagram}}
+  ═══════════════════════════════════════════ -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Plumber",
+    "name": "Elite Plumbing",
+    "description": "{{schema_description}}",
+    "image": "{{hero_image}}",
+    "url": "{{site_url}}",
+    "telephone": "0412345678",
+    "email": "info@eliteplumbing.com.au",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "718 Glenferrie Rd",
+      "addressLocality": "Hawthorn",
+      "addressRegion": "VIC",
+      "postalCode": "3122",
+      "addressCountry": "AU"
+    },
+    "openingHoursSpecification": {{schema_hours}},
+    "priceRange": "$",
+    "areaServed": {
+      "@type": "City",
+      "name": "Hawthorn"
+    },
+    "sameAs": {{schema_sameas}}
+  }
+  </script>
+
+  <!-- ═══════════════════════════════════════════
+       Fonts — Exo (headings) + Albert Sans (body)
+  ═══════════════════════════════════════════ -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Exo:wght@600;700;800&family=Albert+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <!-- ═══════════════════════════════════════════
+       Critical CSS — prevents FOUC on first paint
+  ═══════════════════════════════════════════ -->
+  <style>
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+    html{scroll-behavior:smooth;font-size:16px}
+    body{font-family:'Albert Sans',sans-serif;background:#fff;color:#6E777D;-webkit-font-smoothing:antialiased;line-height:1.6}
+    h1,h2,h3,h4,h5,h6{font-family:'Exo',sans-serif;color:#1F1F25;line-height:1.2;font-weight:700}
+    .header{position:relative;z-index:100;background:#fff}
+    .header-nav-wrapper{position:relative}.header-nav-area{display:flex;align-items:center;justify-content:space-between;position:absolute;top:0;left:0;right:0;z-index:100;padding:0 30px;background:#ffffff;border-radius:0 0 7px 7px;box-shadow:0 4px 15px rgba(0,0,0,.08);min-height:60px}
+    #hero{position:relative;min-height:85dvh;min-height:85vh;background:#1F1F25;display:flex;align-items:center;justify-content:center;overflow:hidden}
+    .container{max-width:1200px;margin:0 auto;padding:0 20px}
+  </style>
+
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+  <!-- ═══════════════════════════════════════════
+       SECTION 1: Header
+       n8n tokens: {{logo_url}}, {{business_name}}, {{phone}}, {{email}}, {{address}}
+  ═══════════════════════════════════════════ -->
+  <header class="header">
+
+    <!-- Row 1: Header Top — logo + info blocks + CTA -->
+    <div class="header-top">
+      <div class="container">
+        <div class="header-top-inner">
+
+          <!-- Logo (col-lg-3 equivalent) -->
+          <div class="header-top-left">
+            <!-- DGG:LOGO:HEADER_TOP:START -->
+            <a href="#" class="header-logo" aria-label="Elite Plumbing — Home">
+              <svg class="header-logo-icon" width="38" height="38" viewBox="0 0 38 38" fill="none" aria-hidden="true">
+                <circle cx="19" cy="19" r="19" fill="#1646D2"/>
+                <path d="M21.5 7L13 21h6l-2.5 10L25 17h-6l2.5-10z" fill="#fff" stroke="#fff" stroke-width="0.5" stroke-linejoin="round"/>
+              </svg>
+              <span class="header-logo-text">BUZZ <strong>ELECTRICAL</strong></span>
+            </a>
+            <!-- DGG:LOGO:HEADER_TOP:END -->
+          </div>
+
+          <!-- Info blocks + CTA (col-lg-9 equivalent) -->
+          <div class="header-right-area">
+
+            <div class="header-info-block">
+              <div class="header-info-icon" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#1646D2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+              </div>
+              <div class="header-info-content">
+                <a href="mailto:info@eliteplumbing.com.au" class="header-info-value">info@eliteplumbing.com.au</a>
+              </div>
+            </div>
+
+            <div class="header-info-block">
+              <div class="header-info-icon" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#1646D2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 13a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 2.18h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 9.84a16 16 0 0 0 6.29 6.29l.94-.94a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              </div>
+              <div class="header-info-content">
+                <a href="tel:0412345678" class="header-info-value">0412 345 678</a>
+              </div>
+            </div>
+
+            <div class="header-cta-wrap">
+              <a href="#contact" class="btn btn-primary header-cta">
+                Request Quote
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+              </a>
+            </div>
+
+          </div><!-- /.header-right-area -->
+
+        </div><!-- /.header-top-inner -->
+      </div>
+    </div><!-- /.header-top -->
+
+    <!-- Row 2: Header Nav — sits below header-top, overlaps hero (Drill: header-nav-area) -->
+    <div class="container header-nav-wrapper">
+      <div class="header-nav-area" id="header-nav">
+
+        <!-- Mobile logo (hidden on desktop, shown when header-top is hidden) -->
+        <div class="logo-md-sm-device">
+        <!-- DGG:LOGO:HEADER_MOBILE:START -->
+        <a href="#" aria-label="Elite Plumbing — Home">
+          <svg width="30" height="30" viewBox="0 0 38 38" fill="none" aria-hidden="true">
+            <circle cx="19" cy="19" r="19" fill="#1646D2"/>
+            <path d="M21.5 7L13 21h6l-2.5 10L25 17h-6l2.5-10z" fill="#fff" stroke="#fff" stroke-width="0.5" stroke-linejoin="round"/>
+          </svg>
+          <span class="header-nav-logo-text">BUZZ <strong>ELECTRICAL</strong></span>
+        </a>
+        <!-- DGG:LOGO:HEADER_MOBILE:END -->
+      </div>
+
+      <!-- Desktop nav links (Drill: header-nav main-nav-one) -->
+      <div class="header-nav-links">
+        <nav aria-label="Main navigation">
+          <ul role="list">
+            <li class="nav-item"><a href="#hero" class="nav-link">HOME</a></li>
+            <li class="nav-item"><a href="#services" class="nav-link">SERVICES</a></li>
+            <li class="nav-item"><a href="#about" class="nav-link">ABOUT</a></li>
+            <li class="nav-item"><a href="#how-we-work" class="nav-link">HOW WE WORK</a></li>
+            <li class="nav-item"><a href="#reviews" class="nav-link">REVIEWS</a></li>
+            <li class="nav-item"><a href="#contact" class="nav-link">CONTACT</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <!-- Actions area: tablet CTA + phone icon, scroll CTA + phone, hamburger -->
+      <div class="actions-area">
+        <a href="tel:0412345678" class="nav-phone-tablet" aria-label="Call Elite Plumbing">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 13a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 2.18h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 9.84a16 16 0 0 0 6.29 6.29l.94-.94a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+        </a>
+        <a href="#contact" class="btn btn-primary nav-cta-tablet">Request Quote</a>
+        <a href="tel:0412345678" class="nav-phone">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 13a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 2.18h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 9.84a16 16 0 0 0 6.29 6.29l.94-.94a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          0412 345 678
+        </a>
+        <a href="#contact" class="btn btn-primary nav-cta">Request Quote</a>
+        <button class="hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false" aria-controls="side-panel">
+          <svg width="20" height="16" viewBox="0 0 20 16" fill="none" aria-hidden="true">
+            <rect y="14" width="20" height="2" fill="#1F1F25"/>
+            <rect y="7" width="20" height="2" fill="#1F1F25"/>
+            <rect width="20" height="2" fill="#1F1F25"/>
+          </svg>
+        </button>
+      </div>
+
+      </div><!-- /.header-nav-area -->
+    </div><!-- /.header-nav-wrapper -->
+
+  </header>
+
+  <!-- ═══════════════════════════════════════════
+       SIDE PANEL — Mobile navigation (slide-in from right)
+       Separate from nav element per Drill layout
+  ═══════════════════════════════════════════ -->
+  <div class="side-panel" id="side-panel" aria-hidden="true" role="dialog" aria-label="Mobile navigation">
+    <div class="side-panel-overlay" id="side-panel-overlay"></div>
+    <div class="side-panel-content">
+
+      <button class="side-panel-close" id="side-panel-close" aria-label="Close menu">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+      </button>
+
+      <ul class="side-panel-links" role="list">
+        <li><a href="#hero" class="side-panel-link">Home</a></li>
+        <li><a href="#services" class="side-panel-link">Services</a></li>
+        <li><a href="#about" class="side-panel-link">About</a></li>
+        <li><a href="#how-we-work" class="side-panel-link">How We Work</a></li>
+        <li><a href="#reviews" class="side-panel-link">Reviews</a></li>
+        <li><a href="#contact" class="side-panel-link">Contact</a></li>
+      </ul>
+
+      <div class="side-panel-social">
+        <!-- DGG:SOCIAL:SIDE_PANEL:START -->
+        <a href="https://www.facebook.com/eliteplumbing" target="_blank" rel="noopener noreferrer" aria-label="Facebook" class="side-panel-social-link">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+        </a>
+        <a href="https://www.linkedin.com/company/eliteplumbing" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" class="side-panel-social-link">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+        </a>
+        <a href="https://www.instagram.com/eliteplumbing" target="_blank" rel="noopener noreferrer" aria-label="Instagram" class="side-panel-social-link">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 0 0 0-12.324zM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.406-11.845a1.44 1.44 0 1 0 0 2.881 1.44 1.44 0 0 0 0-2.881z"/></svg>
+        </a>
+        <!-- DGG:SOCIAL:SIDE_PANEL:END -->
+      </div>
+
+    </div>
+  </div>
+
+  <main id="main-content">
+
+    <!-- ═══════════════════════════════════════════
+         SECTION 2: Hero Banner
+         n8n tokens: {{business_name}}, {{service_keyword}}, {{suburb}}, {{hero_image}}, {{tagline}}
+    ═══════════════════════════════════════════ -->
+    <section id="hero" aria-labelledby="hero-heading">
+
+      <!-- Background image -->
+      <div class="hero-bg" style="background-image: url('images/plumbing-hero-luxury-kitchen-sink.webp');" role="img" aria-label="Luxury Australian kitchen with premium plumbing installation"></div>
+
+      <div class="hero-overlay" aria-hidden="true"></div>
+
+      <!-- Decorative overlay shapes (Drill-style angular accents) -->
+      <div class="hero-shapes" aria-hidden="true">
+        <!-- Left: tall angled blue strip with diagonal edge -->
+        <svg class="hero-shape-full-left" viewBox="0 0 600 900" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M0 0 L420 0 L280 900 L0 900 Z" fill="#1646D2" opacity="0.65"/>
+          <path d="M420 0 L460 0 L320 900 L280 900 Z" fill="#ffffff" opacity="0.15"/>
+        </svg>
+        <!-- Left-top: small triangle accent -->
+        <svg class="hero-shape-left-top" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+          <path d="M0 0 L200 0 L0 180 Z" fill="#1646D2" opacity="0.65"/>
+        </svg>
+        <!-- Left-bottom: angular accent -->
+        <svg class="hero-shape-left-bottom" viewBox="0 0 250 300" xmlns="http://www.w3.org/2000/svg">
+          <path d="M0 300 L0 80 L180 0 L250 0 L250 300 Z" fill="#1646D2" opacity="0.65"/>
+        </svg>
+        <!-- Right: full-height angular accent, pushed right -->
+        <svg class="hero-shape-right-bottom" viewBox="0 0 600 900" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M600 0 L600 900 L200 900 L400 0 Z" fill="#1646D2" opacity="0.65"/>
+          <path d="M400 0 L360 0 L160 900 L200 900 Z" fill="#ffffff" opacity="0.12"/>
+        </svg>
+      </div>
+
+      <div class="container hero-content">
+        <p class="hero-prelabel">Licensed &amp; Trusted Plumbing Services</p>
+
+        <h1 id="hero-heading" class="hero-heading">
+          Elite Plumbing<br>Licensed Plumber Hawthorn
+        </h1>
+
+        <a href="#contact" class="btn btn-primary btn-lg hero-cta">
+          Get a Free Quote
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+        </a>
+      </div>
+
+    </section>
+
+    <!-- ═══════════════════════════════════════════
+         SECTION 3: About / Why Choose Us
+         n8n tokens: {{about_text}}, {{phone}}, {{about_image}}, {{service_image_1}}
+    ═══════════════════════════════════════════ -->
+    <section id="about" class="section" aria-labelledby="about-heading">
+      <div class="container">
+        <div class="about-grid">
+
+          <!-- Left column: images with experience badge -->
+          <div class="about-images fade-in">
+            <div class="about-img-main">
+              <img src="images/plumbing-features-modern-bathroom-tapware.webp" alt="Luxury bathroom with premium plumbing fixtures by Elite Plumbing" loading="lazy">
+              <div class="about-badge" aria-hidden="true">
+                <span class="about-badge-number">15+</span>
+                <span class="about-badge-text">Years of<br>Experience</span>
+              </div>
+            </div>
+            <div class="about-img-secondary about-img-fly-in">
+              <img src="images/plumbing-about-secondary-heat-pump-hot-water.webp" alt="Heat pump hot water system installation by Elite Plumbing" loading="lazy">
+            </div>
+          </div>
+
+          <!-- Right column: content -->
+          <div class="about-content fade-in">
+            <span class="section-prelabel">Why Choose Us</span>
+            <h2 id="about-heading" class="section-heading">Why Choose Elite Plumbing</h2>
+            <p class="about-text">With over 15 years of experience serving Hawthorn and surrounding areas, Elite Plumbing has built a reputation for honest, high-quality plumbing work. We're fully licensed, insured, and committed to delivering safe, reliable results on every job, big or small.</p>
+
+            <div class="about-experience-row">
+              <div class="about-experience-icon" aria-hidden="true">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#1646D2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></svg>
+              </div>
+              <p class="about-experience-text">We Have More Than <strong>15+ Years</strong> Of Plumbing Experience</p>
+            </div>
+
+            <div class="about-cta-row">
+              <a href="tel:0412345678" class="about-phone-link">
+                <span class="about-phone-icon" aria-hidden="true">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 13a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 2.18h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 9.84a16 16 0 0 0 6.29 6.29l.94-.94a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                </span>
+                <span class="about-phone-number">0412 345 678</span>
+              </a>
+              <a href="#contact" class="btn btn-primary">REQUEST QUOTE</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════
+         SECTION 4: Features / More About
+         n8n tokens: {{service_image_2}}
+    ═══════════════════════════════════════════ -->
+    <section id="features" class="section section--dark-angled" aria-labelledby="features-heading">
+      <div class="container">
+        <div class="features-grid">
+
+          <!-- Left column (7/12): content + 2x2 feature cards -->
+          <div class="features-content fade-in">
+            <span class="section-prelabel">What We Offer</span>
+            <h2 id="features-heading" class="section-heading">Professional Plumbing Services</h2>
+
+            <div class="features-cards">
+
+              <div class="feature-card">
+                <div class="feature-card-icon" aria-hidden="true">
+                  <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#1646D2" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></svg>
+                </div>
+                <div class="feature-card-body">
+                  <h6 class="feature-card-title">Licensed &amp; Fully Insured</h6>
+                  <p class="feature-card-desc">Fully licensed plumber with comprehensive insurance for your peace of mind.</p>
+                </div>
+              </div>
+
+              <div class="feature-card">
+                <div class="feature-card-icon" aria-hidden="true">
+                  <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#1646D2" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                </div>
+                <div class="feature-card-body">
+                  <h6 class="feature-card-title">On Time Every Time</h6>
+                  <p class="feature-card-desc">We respect your time. We show up when we say we will, or we'll let you know in advance.</p>
+                </div>
+              </div>
+
+              <div class="feature-card">
+                <div class="feature-card-icon" aria-hidden="true">
+                  <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#1646D2" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="m12 3-1.912 5.813a2 2 0 0 1-1.275 1.275L3 12l5.813 1.912a2 2 0 0 1 1.275 1.275L12 21l1.912-5.813a2 2 0 0 1 1.275-1.275L21 12l-5.813-1.912a2 2 0 0 1-1.275-1.275L12 3Z"/></svg>
+                </div>
+                <div class="feature-card-body">
+                  <h6 class="feature-card-title">Clean &amp; Tidy Work</h6>
+                  <p class="feature-card-desc">We leave your home or business as clean as we found it. Every time.</p>
+                </div>
+              </div>
+
+              <div class="feature-card">
+                <div class="feature-card-icon" aria-hidden="true">
+                  <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#1646D2" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M7 10v12"/><path d="M15 5.88 14 10h5.83a2 2 0 0 1 1.92 2.56l-2.33 8A2 2 0 0 1 17.5 22H4a2 2 0 0 1-2-2v-8a2 2 0 0 1 2-2h2.76a2 2 0 0 0 1.79-1.11L12 2a3.13 3.13 0 0 1 3 3.88Z"/></svg>
+                </div>
+                <div class="feature-card-body">
+                  <h6 class="feature-card-title">Satisfaction Guaranteed</h6>
+                  <p class="feature-card-desc">We stand behind our work. If you're not happy, we'll make it right.</p>
+                </div>
+              </div>
+
+            </div><!-- /.features-cards -->
+          </div>
+
+          <!-- Right column (5/12): large image -->
+          <div class="features-image fade-in">
+            <img src="images/plumbing-service-tapware-installation.webp" alt="Premium brushed brass tapware installation by Elite Plumbing" loading="lazy">
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════
+         SECTION 5: Services
+         n8n tokens: {{service_N_name}}, {{service_N_description}}, {{service_image_N}}
+    ═══════════════════════════════════════════ -->
+    <section id="services" class="section" aria-labelledby="services-heading">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-prelabel">What We Do</span>
+          <h2 id="services-heading" class="section-heading">Our Plumbing Services</h2>
+        </div>
+
+        <!-- DGG:SERVICES:START -->
+        <div class="services-grid">
+
+          <!-- Service Card 1: Lighting Installation -->
+          <article class="service-card">
+            <div class="service-card-thumb">
+              <img src="images/plumbing-service-hot-water-systems.webp" alt="Heat pump and hot water system installation by Elite Plumbing" loading="lazy">
+            </div>
+            <div class="service-card-body">
+              <div class="service-card-icon" aria-hidden="true">
+                <svg width="40" height="40" viewBox="0 0 40 40" fill="none" stroke="#1646D2" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 2v4"/><rect x="17" y="6" width="6" height="3" rx="1"/><path d="M18 9v8"/><path d="M22 9v8"/><path d="M18 17c0 1.5-3 3-3 5h10c0-2-3-3.5-3-5"/><ellipse cx="20" cy="24" rx="5" ry="2"/><path d="M20 26v3"/><line x1="9" y1="20" x2="13" y2="17"/><line x1="31" y1="20" x2="27" y2="17"/><line x1="10" y1="13" x2="14" y2="12"/><line x1="30" y1="13" x2="26" y2="12"/><line x1="7" y1="27" x2="10" y2="24"/><line x1="33" y1="27" x2="30" y2="24"/><circle cx="9" cy="20" r="1" fill="#1646D2"/><circle cx="31" cy="20" r="1" fill="#1646D2"/><circle cx="10" cy="13" r="1" fill="#1646D2"/><circle cx="30" cy="13" r="1" fill="#1646D2"/><circle cx="7" cy="27" r="1" fill="#1646D2"/><circle cx="33" cy="27" r="1" fill="#1646D2"/><path d="M15 9h-3v-2h3" stroke-dasharray="1 1"/><path d="M25 9h3v-2h-3" stroke-dasharray="1 1"/></svg>
+              </div>
+              <h5 class="service-card-title">Hot Water Systems</h5>
+              <p class="service-card-desc">Installation, repair and replacement of gas, electric, solar, and heat-pump hot water systems — all major brands.</p>
+              <a href="#contact" class="service-card-link">
+                Request Quote
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+              </a>
+            </div>
+          </article>
+
+          <!-- Service Card 2: Powerpoint & Switchboard Upgrades -->
+          <article class="service-card">
+            <div class="service-card-thumb">
+              <img src="images/plumbing-service-blocked-drains.webp" alt="Blocked drain clearing by Elite Plumbing" loading="lazy">
+            </div>
+            <div class="service-card-body">
+              <div class="service-card-icon" aria-hidden="true">
+                <svg width="40" height="40" viewBox="0 0 40 40" fill="none" stroke="#1646D2" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="8" y="3" width="24" height="34" rx="2"/><rect x="12" y="7" width="7" height="4" rx="1"/><rect x="21" y="7" width="7" height="4" rx="1"/><rect x="12" y="14" width="7" height="4" rx="1"/><rect x="21" y="14" width="7" height="4" rx="1"/><rect x="12" y="21" width="7" height="4" rx="1"/><rect x="21" y="21" width="7" height="4" rx="1"/><line x1="15.5" y1="8" x2="15.5" y2="10"/><line x1="24.5" y1="8" x2="24.5" y2="10"/><line x1="15.5" y1="15" x2="15.5" y2="17"/><line x1="24.5" y1="15" x2="24.5" y2="17"/><line x1="15.5" y1="22" x2="15.5" y2="24"/><line x1="24.5" y1="22" x2="24.5" y2="24"/><circle cx="17" cy="9" r="0.8" fill="#1646D2"/><circle cx="26" cy="9" r="0.8" fill="#1646D2"/><circle cx="17" cy="16" r="0.8" fill="#1646D2"/><circle cx="26" cy="16" r="0.8" fill="#1646D2"/><circle cx="17" cy="23" r="0.8" fill="#1646D2"/><circle cx="26" cy="23" r="0.8" fill="#1646D2"/><line x1="14" y1="3" x2="14" y2="1"/><line x1="20" y1="3" x2="20" y2="1"/><line x1="26" y1="3" x2="26" y2="1"/><line x1="14" y1="37" x2="14" y2="39"/><line x1="20" y1="37" x2="20" y2="39"/><line x1="26" y1="37" x2="26" y2="39"/><rect x="12" y="29" width="16" height="5" rx="1" stroke-dasharray="2 1"/></svg>
+              </div>
+              <h5 class="service-card-title">Blocked Drains</h5>
+              <p class="service-card-desc">Fast, effective drain clearing for blocked sinks, toilets, basins, and outdoor stormwater drains.</p>
+              <a href="#contact" class="service-card-link">
+                Request Quote
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+              </a>
+            </div>
+          </article>
+
+          <!-- Service Card 3: Safety Inspections -->
+          <article class="service-card">
+            <div class="service-card-thumb">
+              <img src="images/plumbing-service-water-leak-detection-burst-pipes.webp" alt="Water leak detection and burst pipe repair by Elite Plumbing" loading="lazy">
+            </div>
+            <div class="service-card-body">
+              <div class="service-card-icon" aria-hidden="true">
+                <svg width="40" height="40" viewBox="0 0 40 40" fill="none" stroke="#1646D2" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="4" width="18" height="24" rx="2"/><path d="M11 2h6v4h-6z"/><line x1="9" y1="11" x2="19" y2="11"/><line x1="9" y1="15" x2="19" y2="15"/><line x1="9" y1="19" x2="16" y2="19"/><line x1="9" y1="23" x2="14" y2="23"/><path d="M9 11l1.5 1.5L14 9" stroke-width="1.2"/><path d="M9 15l1.5 1.5L14 13" stroke-width="1.2"/><path d="M9 19l1.5 1.5L14 17" stroke-width="1.2"/><circle cx="28" cy="24" r="8"/><circle cx="28" cy="24" r="5.5"/><line x1="28" y1="20" x2="28" y2="24"/><line x1="28" y1="24" x2="31" y2="24"/><polygon points="28,21.5 29,23 27,23" fill="#1646D2" stroke="none"/><path d="M34 30l3 3"/></svg>
+              </div>
+              <h5 class="service-card-title">Water Leak Detection &amp; Burst Pipes</h5>
+              <p class="service-card-desc">24/7 emergency response for hidden leaks, burst pipes, and water damage — find and fix fast.</p>
+              <a href="#contact" class="service-card-link">
+                Request Quote
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+              </a>
+            </div>
+          </article>
+
+          <!-- Service Card 4: Emergency Plumbing -->
+          <article class="service-card service-card--highlight">
+            <div class="service-card-thumb">
+              <img src="images/plumbing-service-emergency-plumber.webp" alt="24/7 emergency plumbing services by Elite Plumbing" loading="lazy">
+            </div>
+            <div class="service-card-body">
+              <div class="service-card-icon" aria-hidden="true">
+                <svg width="40" height="40" viewBox="0 0 40 40" fill="none" stroke="#1646D2" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 5L10 22h8l-2 13 14-20h-9z"/><circle cx="20" cy="20" r="16" stroke-dasharray="4 2" stroke-width="1"/><circle cx="20" cy="20" r="18.5" stroke-dasharray="2 3" stroke-width="0.8" opacity="0.5"/><line x1="6" y1="8" x2="3" y2="5"/><line x1="34" y1="8" x2="37" y2="5"/><line x1="6" y1="32" x2="3" y2="35"/><line x1="34" y1="32" x2="37" y2="35"/><line x1="2" y1="20" x2="4" y2="20"/><line x1="36" y1="20" x2="38" y2="20"/><line x1="20" y1="2" x2="20" y2="3.5"/><line x1="20" y1="36.5" x2="20" y2="38"/><circle cx="3" cy="5" r="1" fill="#1646D2"/><circle cx="37" cy="5" r="1" fill="#1646D2"/><circle cx="3" cy="35" r="1" fill="#1646D2"/><circle cx="37" cy="35" r="1" fill="#1646D2"/></svg>
+              </div>
+              <h5 class="service-card-title">Emergency Plumbing</h5>
+              <p class="service-card-desc">Available 24/7 for burst pipes, gas leaks, blocked toilets, and no hot water.</p>
+              <a href="#contact" class="service-card-link">
+                Request Quote
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+              </a>
+            </div>
+          </article>
+
+          <!-- Service Card 5: Ceiling Fan Installation -->
+          <article class="service-card">
+            <div class="service-card-thumb">
+              <img src="images/plumbing-service-gas-fitting-installation.webp" alt="Gas fitting and BBQ installation by Elite Plumbing" loading="lazy">
+            </div>
+            <div class="service-card-body">
+              <div class="service-card-icon" aria-hidden="true">
+                <svg width="40" height="40" viewBox="0 0 40 40" fill="none" stroke="#1646D2" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><line x1="20" y1="1" x2="20" y2="7"/><rect x="16" y="7" width="8" height="4" rx="2"/><circle cx="20" cy="17" r="4"/><circle cx="20" cy="17" r="2" fill="none"/><path d="M17 15L7 5" stroke-width="2.5" stroke-linecap="round"/><path d="M23 15L33 5" stroke-width="2.5" stroke-linecap="round"/><path d="M17 19L7 29" stroke-width="2.5" stroke-linecap="round"/><path d="M23 19L33 29" stroke-width="2.5" stroke-linecap="round"/><path d="M5 4a2 2 0 0 1 3-1" opacity="0.6" stroke-dasharray="1.5 1"/><path d="M35 4a2 2 0 0 0-3-1" opacity="0.6" stroke-dasharray="1.5 1"/><path d="M5 30a2 2 0 0 0 3 1" opacity="0.6" stroke-dasharray="1.5 1"/><path d="M35 30a2 2 0 0 1-3 1" opacity="0.6" stroke-dasharray="1.5 1"/><path d="M14 11h12" stroke-dasharray="2 1" opacity="0.4"/></svg>
+              </div>
+              <h5 class="service-card-title">Gas Fitting &amp; Installation</h5>
+              <p class="service-card-desc">Licensed gas fitting for new installations, gas appliances, and safety compliance.</p>
+              <a href="#contact" class="service-card-link">
+                Request Quote
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+              </a>
+            </div>
+          </article>
+
+          <!-- Service Card 6: Smoke Alarm Installation -->
+          <article class="service-card">
+            <div class="service-card-thumb">
+              <img src="images/plumbing-service-toilet-installation.webp" alt="Premium toilet installation by Elite Plumbing" loading="lazy">
+            </div>
+            <div class="service-card-body">
+              <div class="service-card-icon" aria-hidden="true">
+                <svg width="40" height="40" viewBox="0 0 40 40" fill="none" stroke="#1646D2" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="20" cy="22" r="12"/><circle cx="20" cy="22" r="9"/><circle cx="20" cy="22" r="6" stroke-dasharray="2 2"/><circle cx="20" cy="22" r="2.5" fill="none"/><rect x="17.5" y="18" width="5" height="3" rx="1"/><circle cx="20" cy="26" r="1" fill="#1646D2"/><path d="M15 10c1.5-2 3-3 5-3s3.5 1 5 3" opacity="0.7"/><path d="M12 7c2.5-2.5 5-4 8-4s5.5 1.5 8 4" opacity="0.5"/><path d="M9 4c3-3 6.5-4.5 11-4.5s8 1.5 11 4.5" opacity="0.3"/><line x1="5" y1="22" x2="8" y2="22" stroke-dasharray="1 1.5" opacity="0.4"/><line x1="32" y1="22" x2="35" y2="22" stroke-dasharray="1 1.5" opacity="0.4"/></svg>
+              </div>
+              <h5 class="service-card-title">Toilet Repair &amp; Installation</h5>
+              <p class="service-card-desc">Fix leaking toilets, faulty cisterns, blocked toilets, and install new toilets and bidets.</p>
+              <a href="#contact" class="service-card-link">
+                Request Quote
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+              </a>
+            </div>
+          </article>
+
+          <!-- Service Card 7: Commercial Plumbing -->
+          <article class="service-card">
+            <div class="service-card-thumb">
+              <img src="images/plumbing-service-commercial-kitchen.webp" alt="Commercial kitchen plumbing by Elite Plumbing" loading="lazy">
+            </div>
+            <div class="service-card-body">
+              <div class="service-card-icon" aria-hidden="true">
+                <svg width="40" height="40" viewBox="0 0 40 40" fill="none" stroke="#1646D2" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="8" y="10" width="24" height="26" rx="2"/><path d="M14 10V5h12v5"/><line x1="14" y1="16" x2="14" y2="32" stroke-dasharray="3 1.5"/><line x1="20" y1="12" x2="20" y2="34" stroke-dasharray="3 1.5"/><line x1="26" y1="16" x2="26" y2="32" stroke-dasharray="3 1.5"/><line x1="10" y1="20" x2="30" y2="20" stroke-dasharray="2 2" opacity="0.4"/><line x1="10" y1="26" x2="30" y2="26" stroke-dasharray="2 2" opacity="0.4"/><polygon points="19,3 21,3 20.5,1 19.5,1" fill="#1646D2" stroke="none"/><path d="M19 3l-1 2" stroke-width="1"/><path d="M21 3l1 2" stroke-width="1"/><rect x="3" y="18" width="5" height="8" rx="1"/><line x1="5.5" y1="20" x2="5.5" y2="24"/><circle cx="5.5" cy="21" r="0.8" fill="#1646D2"/><circle cx="5.5" cy="23.5" r="0.8" fill="#1646D2"/><circle cx="14" cy="16" r="1" fill="#1646D2"/><circle cx="20" cy="14" r="1" fill="#1646D2"/><circle cx="26" cy="16" r="1" fill="#1646D2"/></svg>
+              </div>
+              <h5 class="service-card-title">Commercial Plumbing</h5>
+              <p class="service-card-desc">Plumbing maintenance and project work for offices, retail, hospitality, and strata.</p>
+              <a href="#contact" class="service-card-link">
+                Request Quote
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+              </a>
+            </div>
+          </article>
+
+          <!-- Service Card 8: Air Conditioning Installation -->
+          <article class="service-card">
+            <div class="service-card-thumb">
+              <img src="images/plumbing-service-roof-plumbing-gutters.webp" alt="Roof plumbing and gutter repair by Elite Plumbing" loading="lazy">
+            </div>
+            <div class="service-card-body">
+              <div class="service-card-icon" aria-hidden="true">
+                <svg width="40" height="40" viewBox="0 0 40 40" fill="none" stroke="#1646D2" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="6" width="26" height="12" rx="3"/><line x1="7" y1="15" x2="27" y2="15"/><line x1="7" y1="12.5" x2="27" y2="12.5" stroke-dasharray="1.5 1" opacity="0.4"/><path d="M10 18c0 4-3 7-3 7"/><path d="M16 18c0 4-1 7-1 7"/><path d="M22 18c0 4 1 7 1 7"/><path d="M28 18c0 4 3 7 3 7"/><rect x="33" y="10" width="5" height="14" rx="1"/><line x1="35.5" y1="13" x2="35.5" y2="21"/><path d="M34 17h3"/><circle cx="35.5" cy="14" r="0.8" fill="#1646D2"/><circle cx="35.5" cy="20" r="0.8" fill="#1646D2"/><path d="M30 11l3 0" stroke-dasharray="1 1"/><circle cx="2" cy="30" r="1.5"/><line x1="2" y1="28.5" x2="2" y2="24"/><line x1="2" y1="31.5" x2="2" y2="36"/><path d="M1 26h2"/><path d="M1 28h2"/></svg>
+              </div>
+              <h5 class="service-card-title">Roof Plumbing &amp; Gutter Repair</h5>
+              <p class="service-card-desc">Roof leak repairs, gutter cleaning, downpipe replacement, and storm damage repairs.</p>
+              <a href="#contact" class="service-card-link">
+                Request Quote
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+              </a>
+            </div>
+          </article>
+
+          <!-- Service Card 9: 3 Phase Power -->
+          <article class="service-card">
+            <div class="service-card-thumb">
+              <img src="images/plumbing-service-general-plumbing.webp" alt="General plumbing tools and fittings by Elite Plumbing" loading="lazy">
+            </div>
+            <div class="service-card-body">
+              <div class="service-card-icon" aria-hidden="true">
+                <svg width="40" height="40" viewBox="0 0 40 40" fill="none" stroke="#1646D2" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 18c4.5-8 9 8 13.5 0s9 8 13.5 0"/><path d="M5 14c4.5-8 9 8 13.5 0s9 8 13.5 0" opacity="0.7"/><path d="M7 10c4.5-8 9 8 13.5 0s9 8 13.5 0" opacity="0.4"/><circle cx="10" cy="24" r="1.5" fill="none"/><circle cx="20" cy="24" r="1.5" fill="none"/><circle cx="30" cy="24" r="1.5" fill="none"/><line x1="10" y1="25.5" x2="10" y2="29"/><line x1="20" y1="25.5" x2="20" y2="29"/><line x1="30" y1="25.5" x2="30" y2="29"/><line x1="10" y1="29" x2="20" y2="33"/><line x1="20" y1="29" x2="20" y2="33"/><line x1="30" y1="29" x2="20" y2="33"/><circle cx="20" cy="33" r="2.5"/><circle cx="20" cy="33" r="1" fill="#1646D2"/><path d="M20 35.5v3"/><circle cx="10" cy="24" r="0.5" fill="#1646D2"/><circle cx="20" cy="24" r="0.5" fill="#1646D2"/><circle cx="30" cy="24" r="0.5" fill="#1646D2"/></svg>
+              </div>
+              <h5 class="service-card-title">General Plumbing &amp; Maintenance</h5>
+              <p class="service-card-desc">All general plumbing repairs, leaks, fittings, and ongoing property maintenance.</p>
+              <a href="#contact" class="service-card-link">
+                Request Quote
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+              </a>
+            </div>
+          </article>
+
+        </div><!-- /.services-grid -->
+        <!-- DGG:SERVICES:END -->
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════
+         SECTION 6: How We Work
+    ═══════════════════════════════════════════ -->
+    <section id="how-we-work" class="section section--light" aria-labelledby="how-heading">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-prelabel">Our Process</span>
+          <h2 id="how-heading" class="section-heading">How We Work</h2>
+          <p class="section-description">Simple, straightforward, and stress-free. From first contact to job complete, we make it easy.</p>
+        </div>
+
+        <div class="how-steps">
+
+          <div class="how-step">
+            <div class="how-step-icon" aria-hidden="true">
+              <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#1646D2" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 13a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 2.18h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 9.84a16 16 0 0 0 6.29 6.29l.94-.94a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/><path d="M14.05 2a9 9 0 0 1 8 7.94"/><path d="M14.05 6A5 5 0 0 1 18 10"/></svg>
+            </div>
+            <div class="how-step-num">01</div>
+            <h3 class="how-step-title">Discuss Your Project</h3>
+            <p class="how-step-desc">We'll discuss your project and provide smart solutions.</p>
+          </div>
+
+          <!-- Dashed connector -->
+          <div class="how-step-connector" aria-hidden="true"></div>
+
+          <div class="how-step">
+            <div class="how-step-icon" aria-hidden="true">
+              <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#1646D2" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"/><polyline points="14 2 14 8 20 8"/><line x1="9" y1="15" x2="11" y2="13"/><line x1="11" y1="13" x2="15" y2="17"/></svg>
+            </div>
+            <div class="how-step-num">02</div>
+            <h3 class="how-step-title">Receive Your Quote</h3>
+            <p class="how-step-desc">You'll get a clear, upfront quote, no surprises, no hidden fees.</p>
+          </div>
+
+          <!-- Dashed connector -->
+          <div class="how-step-connector" aria-hidden="true"></div>
+
+          <div class="how-step">
+            <div class="how-step-icon" aria-hidden="true">
+              <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#1646D2" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+            </div>
+            <div class="how-step-num">03</div>
+            <h3 class="how-step-title">We Get to Work</h3>
+            <p class="how-step-desc">Once you give us the go-ahead, we'll schedule and complete the job.</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════
+         SECTION 7: Stats / Counter
+         n8n tokens: {{stat_1_number}}, {{stat_1_label}}, {{stat_2_number}}, {{stat_2_label}},
+         {{stat_3_number}}, {{stat_3_label}}, {{stat_4_number}}, {{stat_4_label}}
+    ═══════════════════════════════════════════ -->
+    <section id="stats" class="section-stats section--dark-angled" aria-label="Business statistics">
+      <div class="container">
+        <!-- DGG:STATS:START -->
+        <div class="stats-grid">
+
+          <div class="stat-item fade-in">
+            <div class="stat-icon" aria-hidden="true">
+              <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+            </div>
+            <span class="stat-number" data-target="500" data-suffix="+" aria-label="500+ Jobs Completed">0</span>
+            <span class="stat-label">Jobs Completed</span>
+          </div>
+
+          <div class="stat-item fade-in">
+            <div class="stat-icon" aria-hidden="true">
+              <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            </div>
+            <span class="stat-number" data-target="15" data-suffix="+" aria-label="15+ Years Experience">0</span>
+            <span class="stat-label">Years Experience</span>
+          </div>
+
+          <div class="stat-item fade-in">
+            <div class="stat-icon" aria-hidden="true">
+              <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+            </div>
+            <span class="stat-number" data-target="1200" data-suffix="+" aria-label="1200+ Happy Customers">0</span>
+            <span class="stat-label">Happy Customers</span>
+          </div>
+
+        </div>
+        <!-- DGG:STATS:END -->
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════
+         SECTION 7: Testimonials
+         n8n tokens: {{review_N_text}}, {{review_N_name}}, {{review_N_rating}}
+    ═══════════════════════════════════════════ -->
+    <section id="reviews" class="section" aria-labelledby="reviews-heading">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-prelabel">Testimonials</span>
+          <h2 id="reviews-heading" class="section-heading">What Our Clients Say</h2>
+        </div>
+
+        <!-- DGG:REVIEWS:START -->
+        <div class="reviews-grid">
+
+          <article class="review-card">
+            <div class="review-stars" aria-label="5 out of 5 stars">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="#F59E0B" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="#F59E0B" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="#F59E0B" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="#F59E0B" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="#F59E0B" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            </div>
+            <blockquote class="review-text">
+              "Called Elite Plumbing for a hot water replacement and they were fantastic. Arrived on time, explained everything clearly, and left the place spotless. Highly recommend."
+            </blockquote>
+            <div class="review-author">
+              <div class="review-avatar" aria-hidden="true">M</div>
+              <div class="review-author-info">
+                <strong class="review-name">Mark T.</strong>
+              </div>
+            </div>
+          </article>
+
+          <article class="review-card">
+            <div class="review-stars" aria-label="5 out of 5 stars">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="#F59E0B" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="#F59E0B" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="#F59E0B" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="#F59E0B" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="#F59E0B" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            </div>
+            <blockquote class="review-text">
+              "Had a burst pipe at 9pm on a Saturday. Elite Plumbing answered the phone and had someone at our door within the hour. Absolute legends."
+            </blockquote>
+            <div class="review-author">
+              <div class="review-avatar" aria-hidden="true">S</div>
+              <div class="review-author-info">
+                <strong class="review-name">Sarah L.</strong>
+              </div>
+            </div>
+          </article>
+
+          <article class="review-card">
+            <div class="review-stars" aria-label="5 out of 5 stars">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="#F59E0B" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="#F59E0B" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="#F59E0B" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="#F59E0B" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="#F59E0B" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            </div>
+            <blockquote class="review-text">
+              "We've used Elite Plumbing for all our office plumbing work. Professional, reliable, and their pricing is always fair. Wouldn't go anywhere else."
+            </blockquote>
+            <div class="review-author">
+              <div class="review-avatar" aria-hidden="true">D</div>
+              <div class="review-author-info">
+                <strong class="review-name">David R.</strong>
+              </div>
+            </div>
+          </article>
+
+        </div>
+        <!-- DGG:REVIEWS:END -->
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════
+         SECTION 8: Contact
+         n8n tokens: {{phone}}, {{email}}, {{address}}, {{google_maps_embed}},
+         {{client_id}}, {{webhook_url}}, {{lead_email}}, {{business_name}}
+    ═══════════════════════════════════════════ -->
+    <section id="contact" class="section section--light" aria-labelledby="contact-heading">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-prelabel">Feel Free To Contact Us</span>
+          <h2 id="contact-heading" class="section-heading">Let's Get in Touch</h2>
+        </div>
+
+        <div class="contact-meta">
+          <span class="contact-meta-item">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#1646D2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+            718 Glenferrie Rd, Hawthorn VIC 3122
+          </span>
+          <a href="tel:0412345678" class="contact-meta-item contact-meta-link">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#1646D2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 13a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 2.18h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 9.84a16 16 0 0 0 6.29 6.29l.94-.94a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            0412 345 678
+          </a>
+          <a href="mailto:info@eliteplumbing.com.au" class="contact-meta-item contact-meta-link">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#1646D2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+            info@eliteplumbing.com.au
+          </a>
+        </div>
+
+        <div class="contact-grid">
+
+          <!-- Left column (7/12): Contact form -->
+          <div class="contact-form-col">
+            <div class="form-card">
+
+              <form
+                id="contact-form"
+                action="{{webhook_url}}"
+                method="POST"
+                novalidate
+                aria-label="Contact enquiry form"
+              >
+                <!-- Honeypot — visually hidden, bots fill this in, we reject if populated -->
+                <div class="hp-field" aria-hidden="true">
+                  <label for="hp-website">Leave this blank</label>
+                  <input type="text" id="hp-website" name="website" tabindex="-1" autocomplete="off">
+                </div>
+
+                <!-- Hidden routing fields (patched at build time) -->
+                <input type="hidden" name="client_id" value="{{client_id}}">
+                <input type="hidden" name="client_business_name" value="{{business_name}}">
+                <input type="hidden" name="notify_email" value="{{lead_email}}">
+                <input type="hidden" name="page_url" value="">
+                <input type="hidden" name="form_rendered_at" value="">
+
+                <div class="form-row">
+                  <div class="form-group form-group--half">
+                    <label for="contact-name" class="form-label">
+                      Name <span class="required-mark" aria-hidden="true">*</span>
+                    </label>
+                    <input type="text" id="contact-name" name="name" class="form-control" autocomplete="name" required aria-required="true" aria-describedby="err-name" placeholder="Your Name">
+                    <span class="field-error" id="err-name" role="alert" aria-live="polite"></span>
+                  </div>
+
+                  <div class="form-group form-group--half">
+                    <label for="contact-email" class="form-label">
+                      Email <span class="required-mark" aria-hidden="true">*</span>
+                    </label>
+                    <input type="email" id="contact-email" name="email" class="form-control" autocomplete="email" required aria-required="true" aria-describedby="err-email" placeholder="Your Email">
+                    <span class="field-error" id="err-email" role="alert" aria-live="polite"></span>
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label for="contact-phone" class="form-label">
+                    Phone <span class="required-mark" aria-hidden="true">*</span>
+                  </label>
+                  <input type="tel" id="contact-phone" name="phone" class="form-control" autocomplete="tel" required aria-required="true" aria-describedby="err-phone" placeholder="Your Phone Number">
+                  <span class="field-error" id="err-phone" role="alert" aria-live="polite"></span>
+                </div>
+
+                <div class="form-group">
+                  <label for="contact-message" class="form-label">
+                    Message <span class="optional-mark">(optional)</span>
+                  </label>
+                  <textarea id="contact-message" name="message" class="form-control form-textarea" rows="5" aria-describedby="err-message" placeholder="Tell us what you need..."></textarea>
+                  <span class="field-error" id="err-message" role="alert" aria-live="polite"></span>
+                </div>
+
+                <button type="submit" class="btn btn-primary btn-lg btn-full" id="submit-btn">
+                  <span class="btn-default-text">Send Message</span>
+                  <span class="btn-loading-text" hidden aria-hidden="true">
+                    <span class="btn-spinner" aria-hidden="true"></span>
+                    <span>Sending...</span>
+                  </span>
+                </button>
+
+              </form>
+
+              <div class="form-success" id="form-success" hidden role="alert" aria-live="polite">
+                <h4 class="form-success-title">Thanks for telling us your details.</h4>
+                <p class="form-success-body">A member of our team will contact you as soon as possible to discuss your job.</p>
+              </div>
+              <div class="form-error-msg" id="form-error" hidden role="alert" aria-live="polite">
+                Something went wrong sending your enquiry. Please call us on <a href="tel:{{phone}}">{{phone}}</a>, or <a id="mailto-fallback" href="">email us directly</a>.
+              </div>
+
+            </div>
+          </div>
+
+          <!-- Right column (5/12): Google Maps -->
+          <div class="contact-map-col">
+            <div class="map-embed">
+              <iframe
+                src="https://maps.google.com/maps?q=718+Glenferrie+Rd,+Hawthorn+VIC+3122,+Australia&amp;output=embed"
+                width="100%"
+                height="100%"
+                style="border:0;"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+                title="Elite Plumbing location — 718 Glenferrie Rd, Hawthorn VIC 3122"
+              ></iframe>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- CTA bar — floats between contact section and footer, overlapping both -->
+  <div class="footer-cta-wrapper">
+    <div class="container">
+      <div class="footer-cta-bar">
+        <div class="footer-cta-inner">
+
+          <!-- Col 1: Logo with blue bg -->
+          <div class="footer-cta-item footer-cta-logo-col">
+            <!-- DGG:LOGO:FOOTER_CTA:START -->
+            <a href="#" class="footer-cta-logo" aria-label="Elite Plumbing — Home">
+              <svg width="34" height="34" viewBox="0 0 38 38" fill="none" aria-hidden="true">
+                <circle cx="19" cy="19" r="19" fill="#fff"/>
+                <path d="M21.5 7L13 21h6l-2.5 10L25 17h-6l2.5-10z" fill="#1646D2" stroke="#1646D2" stroke-width="0.5" stroke-linejoin="round"/>
+              </svg>
+              <span class="footer-cta-logo-text">BUZZ <strong>ELECTRICAL</strong></span>
+            </a>
+            <!-- DGG:LOGO:FOOTER_CTA:END -->
+          </div>
+
+          <!-- Col 2: Phone -->
+          <div class="footer-cta-item">
+            <div class="footer-cta-icon" aria-hidden="true">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 13a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 2.18h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 9.84a16 16 0 0 0 6.29 6.29l.94-.94a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            </div>
+            <div class="footer-cta-text">
+              <span class="footer-cta-label">Phone Number</span>
+              <a href="tel:0412345678" class="footer-cta-value">0412 345 678</a>
+            </div>
+          </div>
+
+          <!-- Col 3: Email -->
+          <div class="footer-cta-item">
+            <div class="footer-cta-icon" aria-hidden="true">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+            </div>
+            <div class="footer-cta-text">
+              <span class="footer-cta-label">Email Us Here</span>
+              <a href="mailto:info@eliteplumbing.com.au" class="footer-cta-value">info@eliteplumbing.com.au</a>
+            </div>
+          </div>
+
+          <!-- Col 4: Address -->
+          <div class="footer-cta-item">
+            <div class="footer-cta-icon" aria-hidden="true">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+            </div>
+            <div class="footer-cta-text">
+              <span class="footer-cta-label">Office Address</span>
+              <span class="footer-cta-value">718 Glenferrie Rd, Hawthorn VIC 3122</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div><!-- /.footer-cta-wrapper -->
+
+  <!-- ═══════════════════════════════════════════
+       SECTION 9: Footer
+       n8n tokens: {{business_name}}, {{phone}}, {{email}}, {{address}},
+       {{social_facebook}}, {{social_instagram}}, {{social_linkedin}}
+  ═══════════════════════════════════════════ -->
+  <div class="rts-footer-one" role="contentinfo">
+    <div class="container">
+
+      <!-- Footer content columns -->
+      <div class="footer-main">
+        <div class="single-footer-one-wrapper">
+
+          <!-- Column 1: About Company -->
+          <div class="single-footer-component first">
+            <h5 class="footer-heading">About Company</h5>
+            <p class="footer-text">Professional plumbing services for homes and businesses in Hawthorn and surrounding areas. Licensed, insured, and committed to quality workmanship.</p>
+            <div class="footer-social">
+              <!-- DGG:SOCIAL:FOOTER:START -->
+              <a href="https://www.facebook.com/eliteplumbing" target="_blank" rel="noopener noreferrer" aria-label="Facebook" class="footer-social-link">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+              </a>
+              <a href="https://www.linkedin.com/company/eliteplumbing" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" class="footer-social-link">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+              </a>
+              <a href="https://www.instagram.com/eliteplumbing" target="_blank" rel="noopener noreferrer" aria-label="Instagram" class="footer-social-link">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 0 0 0-12.324zM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.406-11.845a1.44 1.44 0 1 0 0 2.881 1.44 1.44 0 0 0 0-2.881z"/></svg>
+              </a>
+              <!-- DGG:SOCIAL:FOOTER:END -->
+            </div>
+          </div>
+
+          <!-- Column 2: Useful Links -->
+          <div class="single-footer-component">
+            <h5 class="footer-heading">Useful Links</h5>
+            <ul class="footer-links" role="list">
+              <li>
+                <a href="#hero" class="footer-link">
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+                  Home
+                </a>
+              </li>
+              <li>
+                <a href="#about" class="footer-link">
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+                  About
+                </a>
+              </li>
+              <li>
+                <a href="#services" class="footer-link">
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+                  Services
+                </a>
+              </li>
+              <li>
+                <a href="#reviews" class="footer-link">
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+                  Reviews
+                </a>
+              </li>
+              <li>
+                <a href="#contact" class="footer-link">
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+                  Contact
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Column 3: Our Services -->
+          <div class="single-footer-component">
+            <h5 class="footer-heading">Our Services</h5>
+            <!-- DGG:FOOTER_SERVICES:START -->
+            <ul class="footer-links" role="list">
+              <li>
+                <a href="#services" class="footer-link">
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+                  Lighting Installation
+                </a>
+              </li>
+              <li>
+                <a href="#services" class="footer-link">
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+                  Switchboard Upgrades
+                </a>
+              </li>
+              <li>
+                <a href="#services" class="footer-link">
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+                  Safety Inspections
+                </a>
+              </li>
+              <li>
+                <a href="#services" class="footer-link">
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+                  Emergency Repairs
+                </a>
+              </li>
+              <li>
+                <a href="#services" class="footer-link">
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+                  Ceiling Fan Installation
+                </a>
+              </li>
+              <li>
+                <a href="#services" class="footer-link">
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+                  Smoke Alarms
+                </a>
+              </li>
+            </ul>
+            <!-- DGG:FOOTER_SERVICES:END -->
+          </div>
+
+          <!-- Column 4: Working Hours -->
+          <div class="single-footer-component last">
+            <h5 class="footer-heading">Working Hours</h5>
+            <!-- DGG:FOOTER_HOURS:START -->
+            <table class="footer-hours-table" aria-label="Business hours">
+              <tbody>
+                <tr>
+                  <td>Monday - Friday</td>
+                  <td>7:00am - 6:00pm</td>
+                </tr>
+                <tr>
+                  <td>Saturday</td>
+                  <td>8:00am - 2:00pm</td>
+                </tr>
+                <tr>
+                  <td>Sunday</td>
+                  <td>Closed</td>
+                </tr>
+              </tbody>
+            </table>
+            <div class="footer-emergency">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#1646D2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 13a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 2.18h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 9.84a16 16 0 0 0 6.29 6.29l.94-.94a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              <span>24/7 Emergency Callouts Available</span>
+            </div>
+            <!-- DGG:FOOTER_HOURS:END -->
+          </div>
+
+        </div><!-- /.single-footer-one-wrapper -->
+      </div><!-- /.footer-main -->
+
+    </div>
+  </div><!-- /.rts-footer-one -->
+
+  <!-- Copyright bar — separate from footer per Drill structure -->
+  <div class="copyright-footer-one">
+    <div class="container">
+      <p class="footer-copy">&copy; <span id="footer-year">2026</span> Elite Plumbing. All rights reserved. <a href="https://digitalgrowthgenius.com" class="footer-credit" target="_blank" rel="noopener noreferrer">Powered by Digital Growth Genius</a></p>
+    </div>
+  </div>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>
