@@ -219,7 +219,7 @@ ul { list-style: none; }
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
-  color: #1646D2;
+  color: var(--primary);
 }
 
 .header-info-label {
@@ -397,7 +397,7 @@ ul { list-style: none; }
   transition: color 0.3s;
 }
 
-.nav-phone:hover { color: #1646D2; }
+.nav-phone:hover { color: var(--primary); }
 
 /* CTA in nav — hidden until scrolled (higher specificity to beat .btn) */
 .actions-area .nav-cta {
@@ -452,14 +452,14 @@ ul { list-style: none; }
   height: 44px;
   border-radius: 50%;
   background: rgba(22, 70, 210, 0.08);
-  color: #1646D2;
+  color: var(--primary);
   align-items: center;
   justify-content: center;
   transition: background 0.3s;
 }
 
 .nav-phone-tablet:hover {
-  background: #1646D2;
+  background: var(--primary);
   color: #fff;
 }
 
@@ -2128,7 +2128,7 @@ input:-webkit-autofill:focus {
 }
 
 .footer-social-link:hover {
-  background: #1646D2;
+  background: var(--primary);
 }
 
 .footer-links {
@@ -2147,7 +2147,7 @@ input:-webkit-autofill:focus {
 }
 
 .footer-link:hover {
-  color: #1646D2;
+  color: var(--primary);
 }
 
 .footer-link svg {
@@ -2200,7 +2200,7 @@ input:-webkit-autofill:focus {
 }
 
 .footer-credit:hover {
-  color: #1646D2;
+  color: var(--primary);
 }
 
 /* ──────────────────────────────────────
